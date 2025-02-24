@@ -1,0 +1,98 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+body {
+    background-image: url('Images/background.png');
+}
+
+header {
+    background: rgb(13, 91, 117);
+    padding: 40px 0;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    align-content: flex-start;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 20 0 0;
+}
+
+p {
+    margin: 15px;
+    line-height: 140%;
+}
+
+nav {
+    align-self: flex-end;
+
+}
+
+nav a {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+main {
+    background-color: rgb(95, 172, 198);
+    padding: 20px;
+    margin: 0 20px;
+    color: white
+}
+
+aside {
+    align-self: flex-start;
+    background-color: rgb(95, 172, 198);
+    width: 60%;
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    clear: both;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headshot {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 150px;
+}
+
+aside img {
+    box-shadow: 3px 3px 6px black;
+    width: 25px;
+    margin: 9px 9px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background: rgb(13, 91, 117);
+    width: 100%;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
